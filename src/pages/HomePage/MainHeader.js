@@ -41,7 +41,7 @@ const MainHeader = (props) => {
               className="BLogo img-fluid mx-auto"
               alt="MainHeader"
               src={
-                location.pathname === "/home" || location.pathname === "/tours"
+                location.pathname === "/" || location.pathname === "/home"|| location.pathname === "/tours"
                   ? logo
                   : MainLogo
               }

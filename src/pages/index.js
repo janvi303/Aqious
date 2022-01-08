@@ -76,14 +76,14 @@ const HomePage = () => {
           <MainHotelListting />
         </Route>
 
-        <Route path="/home">
+        <Route path="/">
 
           <DefultScrollToTop />
           <Home />
 
         </Route>
 
-        <Route path="/">
+        <Route path="/home">
           <Redirect to="/home" /> 
         </Route>
       </Switch>
